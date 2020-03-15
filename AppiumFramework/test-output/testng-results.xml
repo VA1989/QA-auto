@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="107537" started-at="2020-01-22T06:24:11 MSK" finished-at="2020-01-22T06:25:58 MSK">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="107537" started-at="2020-01-22T06:24:11 MSK" finished-at="2020-01-22T06:25:58 MSK">
+      <class name="Practice.AppiumFramework.Ecommerce_1">
+        <test-method status="PASS" signature="killLocalServer()[pri:0, instance:Practice.AppiumFramework.Ecommerce_1@66d1af89]" name="killLocalServer" is-config="true" duration-ms="3025" started-at="2020-01-22T06:24:11 MSK" finished-at="2020-01-22T06:24:14 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killLocalServer -->
+        <test-method status="PASS" signature="Ecommerce1()[pri:0, instance:Practice.AppiumFramework.Ecommerce_1@66d1af89]" name="Ecommerce1" duration-ms="50891" started-at="2020-01-22T06:24:14 MSK" finished-at="2020-01-22T06:25:04 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ecommerce1 -->
+      </class> <!-- Practice.AppiumFramework.Ecommerce_1 -->
+      <class name="Practice.AppiumFramework.ApiDemoTest">
+        <test-method status="PASS" signature="ApiDemo(java.lang.String)[pri:0, instance:Practice.AppiumFramework.ApiDemoTest@8646db9]" name="ApiDemo" duration-ms="26925" started-at="2020-01-22T06:25:04 MSK" data-provider="InputData" finished-at="2020-01-22T06:25:31 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiDemo -->
+        <test-method status="PASS" signature="ApiDemo(java.lang.String)[pri:0, instance:Practice.AppiumFramework.ApiDemoTest@8646db9]" name="ApiDemo" duration-ms="26657" started-at="2020-01-22T06:25:31 MSK" data-provider="InputData" finished-at="2020-01-22T06:25:58 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiDemo -->
+      </class> <!-- Practice.AppiumFramework.ApiDemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

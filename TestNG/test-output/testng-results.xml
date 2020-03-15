@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+    <groups>
+      <group name="Smoke">
+        <method signature="Lesson2.Demo2()[pri:0, instance:Lesson2@6ddf90b0]" name="Demo2" class="Lesson2"/>
+        <method signature="Lesson3.WebLogin()[pri:0, instance:Lesson3@eec5a4a]" name="WebLogin" class="Lesson3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="71" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+      <class name="Lesson1">
+        <test-method status="PASS" signature="firstexecution()[pri:0, instance:Lesson1@2b2948e2]" name="firstexecution" is-config="true" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstexecution -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Lesson1@2b2948e2]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="BfMethod()[pri:0, instance:Lesson1@2b2948e2]" name="BfMethod" is-config="true" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method status="PASS" signature="JustTest()[pri:0, instance:Lesson1@2b2948e2]" name="JustTest" duration-ms="8" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JustTest -->
+        <test-method status="PASS" signature="BfMethod()[pri:0, instance:Lesson1@2b2948e2]" name="BfMethod" is-config="true" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method status="PASS" signature="ThirdTest()[pri:0, instance:Lesson1@2b2948e2]" name="ThirdTest" duration-ms="2" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdTest -->
+        <test-method status="PASS" signature="SecondTest()[pri:0, instance:Lesson1@2b2948e2]" name="SecondTest" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" depends-on-methods="Lesson1.ThirdTest" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondTest -->
+        <test-method status="PASS" signature="BfMethod()[pri:0, instance:Lesson1@2b2948e2]" name="BfMethod" is-config="true" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method status="PASS" signature="BfMethod()[pri:0, instance:Lesson1@2b2948e2]" name="BfMethod" is-config="true" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfMethod -->
+        <test-method status="PASS" signature="Demo()[pri:0, instance:Lesson1@2b2948e2]" name="Demo" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" depends-on-methods="Lesson1.SecondTest" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="alastexecution()[pri:0, instance:Lesson1@2b2948e2]" name="alastexecution" is-config="true" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alastexecution -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Lesson1@2b2948e2]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="AfSuite()[pri:0, instance:Lesson1@2b2948e2]" name="AfSuite" is-config="true" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfSuite -->
+      </class> <!-- Lesson1 -->
+      <class name="Lesson3">
+        <test-method status="PASS" signature="BfSuite()[pri:0, instance:Lesson3@eec5a4a]" name="BfSuite" is-config="true" duration-ms="11" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BfSuite -->
+        <test-method status="PASS" signature="Mobile123()[pri:0, instance:Lesson3@eec5a4a]" name="Mobile123" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile123 -->
+        <test-method status="PASS" signature="Mobile555()[pri:0, instance:Lesson3@eec5a4a]" name="Mobile555" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile555 -->
+        <test-method status="PASS" signature="Mobile777()[pri:0, instance:Lesson3@eec5a4a]" name="Mobile777" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobile777 -->
+        <test-method status="PASS" signature="MobileLogin(java.lang.String)[pri:0, instance:Lesson3@eec5a4a]" name="MobileLogin" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLogin -->
+        <test-method status="PASS" signature="WebLogin()[pri:0, instance:Lesson3@eec5a4a]" name="WebLogin" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+      </class> <!-- Lesson3 -->
+      <class name="Lesson2">
+        <test-method status="PASS" signature="prerequisites()[pri:0, instance:Lesson2@6ddf90b0]" name="prerequisites" is-config="true" duration-ms="0" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisites -->
+        <test-method status="PASS" signature="Demo2()[pri:0, instance:Lesson2@6ddf90b0]" name="Demo2" duration-ms="2" started-at="2019-11-30T16:46:18 MSK" finished-at="2019-11-30T16:46:18 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo2 -->
+        <test-method status="PASS" signature="MethodForDataprovider(java.lang.String, java.lang.String)[pri:0, instance:Lesson2@6ddf90b0]" name="MethodForDataprovider" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" data-provider="getData" finished-at="2019-11-30T16:46:18 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstlogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodForDataprovider -->
+        <test-method status="PASS" signature="MethodForDataprovider(java.lang.String, java.lang.String)[pri:0, instance:Lesson2@6ddf90b0]" name="MethodForDataprovider" duration-ms="2" started-at="2019-11-30T16:46:18 MSK" data-provider="getData" finished-at="2019-11-30T16:46:18 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondlogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodForDataprovider -->
+        <test-method status="PASS" signature="MethodForDataprovider(java.lang.String, java.lang.String)[pri:0, instance:Lesson2@6ddf90b0]" name="MethodForDataprovider" duration-ms="1" started-at="2019-11-30T16:46:18 MSK" data-provider="getData" finished-at="2019-11-30T16:46:18 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdlogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodForDataprovider -->
+      </class> <!-- Lesson2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

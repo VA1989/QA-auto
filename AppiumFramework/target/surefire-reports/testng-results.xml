@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="101947" started-at="2020-02-02T17:01:32 MSK" finished-at="2020-02-02T17:03:14 MSK">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="101947" started-at="2020-02-02T17:01:32 MSK" finished-at="2020-02-02T17:03:14 MSK">
+      <class name="Practice.AppiumFramework.ApiDemoTest">
+        <test-method status="PASS" signature="ApiDemo(java.lang.String)[pri:0, instance:Practice.AppiumFramework.ApiDemoTest@4232c52b]" name="ApiDemo" duration-ms="26195" started-at="2020-02-02T17:02:21 MSK" data-provider="InputData" finished-at="2020-02-02T17:02:47 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiDemo -->
+        <test-method status="PASS" signature="ApiDemo(java.lang.String)[pri:0, instance:Practice.AppiumFramework.ApiDemoTest@4232c52b]" name="ApiDemo" duration-ms="26564" started-at="2020-02-02T17:02:47 MSK" data-provider="InputData" finished-at="2020-02-02T17:03:14 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$%]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiDemo -->
+      </class> <!-- Practice.AppiumFramework.ApiDemoTest -->
+      <class name="Practice.AppiumFramework.Ecommerce_1">
+        <test-method status="PASS" signature="killLocalServer()[pri:0, instance:Practice.AppiumFramework.Ecommerce_1@57e1b0c]" name="killLocalServer" is-config="true" duration-ms="3021" started-at="2020-02-02T17:01:32 MSK" finished-at="2020-02-02T17:01:35 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killLocalServer -->
+        <test-method status="PASS" signature="Ecommerce1()[pri:0, instance:Practice.AppiumFramework.Ecommerce_1@57e1b0c]" name="Ecommerce1" duration-ms="46128" started-at="2020-02-02T17:01:35 MSK" finished-at="2020-02-02T17:02:21 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ecommerce1 -->
+      </class> <!-- Practice.AppiumFramework.Ecommerce_1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

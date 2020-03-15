@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41" started-at="2019-12-08T17:47:17 MSK" finished-at="2019-12-08T17:47:17 MSK">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="41" started-at="2019-12-08T17:47:17 MSK" finished-at="2019-12-08T17:47:17 MSK">
+      <class name="MyFirstMavenProject.SeleniumTest">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:MyFirstMavenProject.SeleniumTest@29ca901e]" name="BrowserAutomation" duration-ms="6" started-at="2019-12-08T17:47:17 MSK" finished-at="2019-12-08T17:47:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserAutomation -->
+        <test-method status="PASS" signature="Element()[pri:0, instance:MyFirstMavenProject.SeleniumTest@29ca901e]" name="Element" duration-ms="1" started-at="2019-12-08T17:47:17 MSK" finished-at="2019-12-08T17:47:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Element -->
+      </class> <!-- MyFirstMavenProject.SeleniumTest -->
+      <class name="MyFirstMavenProject.RESTAPITest">
+        <test-method status="PASS" signature="API123()[pri:0, instance:MyFirstMavenProject.RESTAPITest@5649fd9b]" name="API123" duration-ms="0" started-at="2019-12-08T17:47:17 MSK" finished-at="2019-12-08T17:47:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- API123 -->
+        <test-method status="PASS" signature="REST()[pri:0, instance:MyFirstMavenProject.RESTAPITest@5649fd9b]" name="REST" duration-ms="0" started-at="2019-12-08T17:47:17 MSK" finished-at="2019-12-08T17:47:17 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- REST -->
+      </class> <!-- MyFirstMavenProject.RESTAPITest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
