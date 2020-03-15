@@ -11,12 +11,6 @@ public class RESTAPITest {
 	}
 	
 	@Test
-	public void REST123()
-	{
-		System.out.println("REST123");
-	}
-	
-	@Test
 	public void API123()
 	{
 		

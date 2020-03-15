@@ -3425,3 +3425,11 @@ Caused by: java.io.FileNotFoundException: C:\Users\abram\eclipse-workspace\.meta
 2020-03-15 15:46:03,341 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\abram\eclipse-workspace\MavenJava\src\test\resources
 2020-03-15 15:46:08,358 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
 2020-03-15 15:46:08,364 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\abram\eclipse-workspace\MavenJava\src\main\resources
+2020-03-15 15:46:08,366 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-15 15:46:08,373 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\abram\eclipse-workspace\MavenJava\src\test\resources
+2020-03-15 15:56:03,716 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-15 15:56:03,723 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\abram\eclipse-workspace\MavenJava\src\main\resources
+2020-03-15 15:56:03,725 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-15 15:56:03,730 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\abram\eclipse-workspace\MavenJava\src\test\resources
+2020-03-15 15:56:14,566 [Worker-22: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1251 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-03-15 15:56:14,573 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\abram\eclipse-workspace\MavenJava\src\main\resources
