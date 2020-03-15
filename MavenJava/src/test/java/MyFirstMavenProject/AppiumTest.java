@@ -15,6 +15,6 @@ public class AppiumTest {
 	@Test
 	public void AppiumRoad()
 	{
-		
+		System.out.println("Test branch 1 commit");
 	}
 }
