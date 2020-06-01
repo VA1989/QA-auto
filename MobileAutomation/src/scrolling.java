@@ -9,7 +9,7 @@ public class scrolling extends base{
 
 	public static void main(String[] args) throws MalformedURLException {
 		
-		AndroidDriver<AndroidElement> driver=Capabilities("");
+		AndroidDriver<AndroidElement> driver=Capabilities("emulator");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.findElementByXPath("//android.widget.TextView[@text='Views']").click();

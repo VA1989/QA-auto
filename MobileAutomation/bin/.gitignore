@@ -1,14 +1,2 @@
-/ApiDemos-debug.apk
-/DragAndDrop.class
-/Ecom_compareAmount.class
-/Ecommerce_1.class
-/General-Store.apk
-/NativeToWeb.class
-/base.class
-/baseChrome.class
-/basics.class
-/browse.class
-/gestures.class
-/pageObjects/
-/scrolling.class
-/swipe.class
+/BroUser.class
+/baseBroUser.class

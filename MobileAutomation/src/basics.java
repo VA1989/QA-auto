@@ -11,7 +11,7 @@ public class basics extends base{
 	public static void main(String[] args) throws MalformedURLException {
 		// TODO Auto-generated method stub
 
-		AndroidDriver<AndroidElement> driver=Capabilities("emulator");
+		AndroidDriver<AndroidElement> driver=Capabilities("real");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		HomePage hp=new HomePage(driver);

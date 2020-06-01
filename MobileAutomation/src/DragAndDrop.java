@@ -15,7 +15,7 @@ public class DragAndDrop extends base{
 
 	public static void main(String[] args) throws MalformedURLException {
 		
-		AndroidDriver<AndroidElement> driver=Capabilities("");
+		AndroidDriver<AndroidElement> driver=Capabilities("emulator");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		driver.findElementByXPath("//android.widget.TextView[@text='Views']").click();
@@ -24,6 +24,7 @@ public class DragAndDrop extends base{
 		WebElement object1 = driver.findElementsByClassName("android.view.View").get(0);
 		WebElement object2 = driver.findElementsByClassName("android.view.View").get(2);
 		touch.longPress(longPressOptions().withElement(element(object1))).moveTo(element(object2)).release().perform();
+		//touch.longPress(element(object1))).moveTo(element(object2)).release().perform();
 
 	}
 
