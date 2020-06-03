@@ -43,5 +43,6 @@ AndroidDriver<AndroidElement> driver=Capabilities("emulator");
  System.out.println (driver.getCurrentUrl());
  Assert.assertEquals(URL, "https://wikipedia.org/" );
  
+ 
 }
 }

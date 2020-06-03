@@ -53,5 +53,6 @@ Category_Body.click();
  System.out.println (driver.getCurrentUrl());
  Assert.assertEquals(URL, "https://wikipedia.org/" );
  
+ 
 }
 }
