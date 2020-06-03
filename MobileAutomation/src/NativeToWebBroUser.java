@@ -31,11 +31,6 @@ public static void main(String[] args) throws MalformedURLException, Interrupted
 
 AndroidDriver<AndroidElement> driver=Capabilities("emulator");
 
-/*Set<String> context = driver.getContextHandles();
-
-for(String contextname :context) {
-	System.out.println(contextname);
-}*/
 
  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
  driver.get("https://bing.com");
@@ -43,7 +38,7 @@ for(String contextname :context) {
  driver.findElement(By.name("q")).sendKeys("https://wikipedia.org");
  driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
  driver.findElementByXPath("//*[@id=\"b_results\"]/li[1]/div[1]/h2/a").click();
-//*[@id="b_results"]/li[1]/div[1]/h2/a
+
  String URL = driver.getCurrentUrl();
  System.out.println (driver.getCurrentUrl());
  Assert.assertEquals(URL, "https://wikipedia.org/" );
