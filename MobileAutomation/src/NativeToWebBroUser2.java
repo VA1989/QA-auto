@@ -1,3 +1,4 @@
+
 import java.net.MalformedURLException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -25,7 +26,7 @@ import io.appium.java_client.android.nativekey.KeyEvent;
 
 
 
-public class NativeToWebBroUser2 extends baseChrome{
+public class NativeToWebBroUser2 extends baseBroUser{
 
 
 
@@ -54,4 +55,3 @@ Category_Body.click();
  
 }
 }
-

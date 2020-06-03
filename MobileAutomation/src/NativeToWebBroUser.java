@@ -45,4 +45,3 @@ AndroidDriver<AndroidElement> driver=Capabilities("emulator");
  
 }
 }
-
