@@ -43,7 +43,7 @@ for(String contextname :context) {
  driver.findElement(By.name("q")).sendKeys("https://wikipedia.org");
  driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
  driver.findElementByXPath("//*[@id=\"b_results\"]/li[1]/div[1]/h2/a").click();
-//*[@id="b_results"]/li[1]/div[1]/h2/a
+
  String URL = driver.getCurrentUrl();
  System.out.println (driver.getCurrentUrl());
  Assert.assertEquals(URL, "https://wikipedia.org/" );
